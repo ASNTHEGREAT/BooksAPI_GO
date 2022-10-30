@@ -3,10 +3,9 @@ This is an api (in localhost) created to get info of all books, by ID, create a 
 
 Use POSTMAN to test the following:
 
-GET:
-http://localhost:8080/books
+GET:http://localhost:8080/books
 >> This will fetch you all the available books in the map
-http://localhost:8080/books/2
+GET:http://localhost:8080/books/2
 >> This will fetch you the book with the entered id, i.e, /books/:id
 
 POST:
